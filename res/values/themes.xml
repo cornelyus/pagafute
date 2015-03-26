@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="Theme.Mine" parent="@style/Theme.GreenDroid.Light.NoTitleBar">
+        <item name="gdActionBarBackground">@color/action_bar_background_solid</item>
+        <item name="gdActionBarApplicationDrawable">@drawable/application_logo</item>
+<!--         <item name="gdActionBarApplicationDrawable">@drawable/ic_fute_launcher</item> -->
+    </style>    
+    
+</resources>

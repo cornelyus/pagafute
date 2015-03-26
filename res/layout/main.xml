@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <View style="@style/SepBar">	
+        	
+	</View>
+	
+    <LinearLayout android:id="@+id/jogadores_bar" style="@style/InfoBarTable">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:padding="4dip"
+			android:textSize="@dimen/text_size_medium" android:text="Lista Jogadores"></TextView>		
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/button_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO" 
+        android:layout_marginTop="4dip"
+        android:onClick="goClick"/>
+	
+    <LinearLayout android:id="@+id/meses_bar" style="@style/InfoBarTable">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:padding="4dip"
+			android:textSize="@dimen/text_size_medium" android:text="Meses"></TextView>		
+	</LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="4dip"/>
+    
+    <Button
+        android:id="@+id/button_goLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO" 
+        android:onClick="goListaClick"/>
+
+   
+
+</LinearLayout>
